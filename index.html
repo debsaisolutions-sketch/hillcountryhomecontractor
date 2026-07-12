@@ -599,4 +599,34 @@ Error generating stack: `+l.message+`
 
 
 
+
+    <script type="text/javascript">
+      (function(){
+        d=document;
+        s=d.createElement("script");
+        s.async=1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+  
+<!-- Retell AI Chatbot Widget -->
+<script>
+  window.retellConfig = {
+    agentId: "agent_8c560d43782db55affd4b963dc",
+    apiKey: "key_e0f4983b4b0f47e5428fe9f2d35f"
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/retell-client-js-sdk@latest/dist/index.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (window.Retell) {
+      window.Retell.initWidget({
+        agentId: window.retellConfig.agentId,
+        apiKey: window.retellConfig.apiKey,
+        position: 'bottom-right'
+      });
+    }
+  });
+</script>
+
 </body><div id="manus-previewer-root" data-manus-selector-input="true"></div><div id="manus-action-mask-host" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483646;"></div></html>
